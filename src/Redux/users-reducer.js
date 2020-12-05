@@ -3,13 +3,7 @@ const UNFOLLOW = 'UNFOLLOW';
 const SET_USERS = 'SET_USERS';
 
 let initialState = {
-    users: [
-        { id: 1, photoUrl: "https://karavan.ua/wp-content/uploads/2019/05/zast-1.jpg", fillowed: true, fullName: "Dima", status: "Everything okey", location: { city: "Kyiv", country: "Ukraine" } },
-        { id: 2, photoUrl: "https://karavan.ua/wp-content/uploads/2019/05/zast-1.jpg", fillowed: false, fullName: "Kostya", status: "Everything okey", location: { city: "Minsk", country: "Belarus" } },
-        { id: 3, photoUrl: "https://karavan.ua/wp-content/uploads/2019/05/zast-1.jpg", fillowed: true, fullName: "Sergey", status: "Everything okey", location: { city: "Vashington", country: "USA" } },
-        { id: 4, photoUrl: "https://karavan.ua/wp-content/uploads/2019/05/zast-1.jpg", fillowed: false, fullName: "Dima", status: "Everything okey", location: { city: "Kyiv", country: "Ukraine" } },
-        { id: 5, photoUrl: "https://karavan.ua/wp-content/uploads/2019/05/zast-1.jpg", fillowed: true, fullName: "Dima", status: "Everything okey", location: { city: "Kyiv", country: "Ukraine" } },
-    ],
+    users: [],
 
 };
 
