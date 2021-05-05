@@ -1,5 +1,18 @@
+.userContainer {
+    margin-left: 10px;
+}
+
 .userPhoto {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.pagination {
+    margin: 10px;
+    cursor: pointer;
 }

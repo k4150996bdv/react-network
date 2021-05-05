@@ -9,6 +9,9 @@ const Navbar = () => {
         <NavLink to="/profile" activeClassName={n.active}>Profile</NavLink>
       </div>
       <div className={n.item}>
+        <NavLink to="/users" activeClassName={n.active}>Users</NavLink>
+      </div>
+      <div className={n.item}>
         <NavLink to="/dialogs" activeClassName={n.active}>Messages</NavLink>
       </div>
       <div className={n.item}>
@@ -19,9 +22,6 @@ const Navbar = () => {
       </div>
       <div className={n.item}>
         <NavLink to="/settings" activeClassName={n.active}>Settings</NavLink>
-      </div>
-      <div className={n.item}>
-        <NavLink to="/users" activeClassName={n.active}>Users</NavLink>
       </div>
     </nav>
   );
